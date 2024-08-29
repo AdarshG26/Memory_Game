@@ -100,28 +100,28 @@ span{
 
 @media (max-width: 768px) {
     #card-section {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
     h1 {
         font-size: 3rem;
     }
     .card, .back-card, .front-card{
-        height: 4rem;
-        width: 4rem;
+        height: 6rem;
+        width: 6rem;
     }
 }
 
 /* Media query for mobile phones */
 @media (max-width: 480px) {
     #card-section {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 1rem;
     }
     h1 {
         font-size: 2rem;
     }
     .card, .back-card, .front-card{
-        height: 4rem;
-        width: 4rem;
+        height: 5rem;
+        width: 5rem;
     }
 }
